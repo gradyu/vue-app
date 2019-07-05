@@ -1,9 +1,13 @@
 import Vue from "vue";
-import "./plugins/axios";
-import "./plugins/vuetify";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
+
+import "@/plugins";
+import "@/layouts";
+import "@/components";
+
+import router from "@/routers";
+import store from "@/stores";
+
+import App from "./App";
 
 Vue.config.productionTip = false;
 
